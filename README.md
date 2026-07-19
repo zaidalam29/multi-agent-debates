@@ -2,7 +2,7 @@
 
 Two AI agents debate any topic from opposing sides, with an impartial AI judge scoring the arguments and declaring a winner — built with a multi-agent orchestration pattern and automatic LLM failover.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![LangChain](https://img.shields.io/badge/LangChain-Multi--Agent-1C3C3C?style=flat&logo=langchain&logoColor=white)](https://www.langchain.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=flat&logo=openai&logoColor=white)](https://platform.openai.com/)
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Fallback-6E56CF?style=flat)](https://openrouter.ai/)
@@ -24,7 +24,7 @@ Two AI agents debate any topic from opposing sides, with an impartial AI judge s
 
 | Layer | Technology |
 |---|---|
-| Language | Python 3.10+ |
+| Language | Python 3.12+ |
 | Orchestration | LangChain (`langchain-core`, `langchain-openai`) |
 | Primary LLM | OpenAI GPT-4o-mini (debaters), GPT-4o (judge) |
 | Fallback LLM | OpenRouter (OpenAI-compatible endpoint) |
@@ -65,7 +65,7 @@ Each debater keeps its own argument history; the judge receives the full transcr
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/zaidalam29/multi-agent-debates.git
+git clone https://github.com/<your-username>/multi-agent-debates.git
 cd multi-agent-debates
 ```
 
@@ -105,9 +105,9 @@ OPENROUTER_API_KEY=sk-or-...   # get a free key at https://openrouter.ai/keys
 ### 5. Run a debate
 
 ```bash
-python agent.py --topic "AI will eliminate more jobs than it creates"
-python agent.py --topic "Remote work is better than office work" --rounds 3
-python agent.py --topic "Cryptocurrency will replace fiat currency" --rounds 2
+python agent.py --topic "Universal Basic Income should replace traditional welfare systems"
+python agent.py --topic "Social media does more harm than good to society" --rounds 3
+python agent.py --topic "Nuclear energy is the best solution to climate change" --rounds 2
 ```
 
 | Flag | Description | Default |
