@@ -8,7 +8,7 @@ Two AI agents debate any topic from opposing sides, with an impartial AI judge s
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Fallback-6E56CF?style=flat)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
 
-**Author**: Zaid Alam — AI Engineer
+**Author**: Zaid Alam — Senior Full Stack Developer + GenAI/ML Engineer
 
 ---
 
